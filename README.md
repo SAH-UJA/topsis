@@ -1,8 +1,8 @@
 ### Installation
-The module, topis_sahilahuja requires pandas, math and sys modules to function
+The module, topis requires pandas, math and sys modules to function
 This module is used to print the score and rank after using TOPSIS (Technique for Order Preference based on Similarity to Ideal Solution)
 ```sh
-$ pip install topsis_sahilahuja
+$ pip install topsis
 $ python
 >> import topsis
 >> top_obj = topsis.Topsis('data.csv') # input file is data.csv with all numberical data
