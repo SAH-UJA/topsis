@@ -12,6 +12,7 @@ class Topsis:
     def __init__(self,filename):
         data = pd.read_csv(filename)
         self.d = data.iloc[:,:].values
+        self.d = self.d.astype('float64')
         self.features = len(self.d[0])
         self.samples = len(self.d)
     def fun(self,a):
