@@ -9,6 +9,9 @@ $ python
 >> top_obj.evaluate(w=[1,1,1],im=["+","+","-"]) #since data.csv has 3 features with last to be minimized and first two maximized
 ''' w is the weight list and im is the impact list where "+" is used for maximize and "-" for minimize. Size of w, im is equal to number of features. Default weight is 1 and impact is "+" '''
 ```
+>> print(top_obj.d) # prints the normalized matrix
+>> print(top_obj.features) # prints number of features(columns)
+>> print(top_obj.samples) # prints number of tuples or samples(rows)
 ### License
 MIT
 ### Author
