@@ -1,1 +1,1 @@
-from topsis_sahilahuja.topsis import Topsis
+from topsis.topsis import Topsis
